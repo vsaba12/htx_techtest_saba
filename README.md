@@ -15,7 +15,21 @@ The objective is to allocate new students to tutors while respecting:
 The model is implemented using **Mixed-Integer Programming (MIP)** with IBM CPLEX via the `docplex` Python library.
 
 ---
+## Folder Descriptions
 
+- **Code/**  
+  Contains the Jupyter notebook implementing the optimisation model and scenario analysis.
+
+- **Input/**  
+  Contains the raw Excel file with:
+  - New student data
+  - Tutor information
+  - Existing student allocations
+
+- **Output/**  
+  Contains the generated Excel file summarising assignment results for all scenarios.
+
+---
 ## Model Design
 
 Each scenario shares the same feasibility constraints:
