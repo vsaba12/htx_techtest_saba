@@ -1,4 +1,4 @@
-# `requirements.txt`
+requirements.txt
 
 pandas>=1.5
 docplex>=2.25
