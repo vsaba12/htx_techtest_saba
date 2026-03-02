@@ -1,0 +1,7 @@
+# requirements.txt
+
+```txt
+pandas>=1.5
+docplex>=2.25
+openpyxl>=3.0
+numpy>=1.23
